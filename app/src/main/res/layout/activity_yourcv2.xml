@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yourcv2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8C2E6"
+        app:srcCompat="@drawable/clouds" />
+
+    <TextView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4mm"
+        android:fontFamily="@font/chau_philomene_one"
+        android:text="Your CV"
+        android:textAlignment="center"
+        android:textColor="#D354E1"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="17mm"
+        android:fontFamily="@font/concert_one"
+        android:text="Name:"
+        android:textAlignment="gravity"
+        android:textColor="#C832C6"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/namedetale"
+        android:layout_width="339dp"
+        android:layout_height="62dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22mm"
+        android:fontFamily="@font/francois_one"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="#EA4CE8"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/job2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="32mm"
+        android:fontFamily="@font/concert_one"
+        android:text="Your Job:"
+        android:textAlignment="gravity"
+        android:textColor="#C832C6"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/jobdetail"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="39mm"
+        android:fontFamily="@font/francois_one"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="#EA4CE8"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/age2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="47mm"
+        android:fontFamily="@font/concert_one"
+        android:text="Age:"
+        android:textAlignment="gravity"
+        android:textColor="#C832C6"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/agedetail"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="54mm"
+        android:fontFamily="@font/balsamiq_sans"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="#EA4CE8"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/phone2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="61mm"
+        android:fontFamily="@font/concert_one"
+        android:text="Phone Number:"
+        android:textAlignment="gravity"
+        android:textColor="#C832C6"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/phonedetail"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="67mm"
+        android:fontFamily="@font/francois_one"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="#EA4CE8"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="74mm"
+        android:fontFamily="@font/concert_one"
+        android:text="Email:"
+        android:textAlignment="gravity"
+        android:textColor="#C832C6"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/emaildetail"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@id/name2"
+        android:layout_marginTop="80mm"
+        android:fontFamily="@font/francois_one"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="#EA4CE8"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/gmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="39mm"
+        android:layout_marginTop="79mm"
+        android:backgroundTint="#EE44F3"
+        android:fontFamily="@font/balsamiq_sans"
+        android:text="Open Gmail:"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/phoneapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37.5mm"
+        android:layout_marginTop="67mm"
+        android:backgroundTint="#EE44F3"
+        android:fontFamily="@font/balsamiq_sans"
+        android:text="Open Phone:"
+        android:textSize="20sp" />
+</RelativeLayout>

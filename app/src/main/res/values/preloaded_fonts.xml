@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/allan</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/chau_philomene_one</item>
+        <item>@font/concert_one</item>
+        <item>@font/fascinate_inline</item>
+        <item>@font/francois_one</item>
+        <item>@font/galada</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/lemon</item>
+    </array>
+</resources>

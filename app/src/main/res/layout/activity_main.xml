@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C2E6"
+    android:foregroundTint="#E62626"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/clouds" />
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6mm"
+        android:fontFamily="@font/chau_philomene_one"
+        android:text="CV Application"
+        android:textAlignment="center"
+        android:textColor="#D354E1"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="7mm"
+        android:layout_marginTop="22mm"
+        android:background="@color/purple_200"
+        android:backgroundTint="#E4CFE4"
+        android:hint="Name:"
+        android:ems="10"
+        android:fontFamily="@font/chau_philomene_one"
+        android:inputType="textPersonName"
+        android:text="Name:"
+        android:textColor="#B30FF8"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="7mm"
+        android:layout_marginTop="48mm"
+        android:background="@color/purple_200"
+        android:backgroundTint="#E4CFE4"
+        android:hint="Age:"
+        android:ems="10"
+        android:fontFamily="@font/chau_philomene_one"
+        android:inputType="textPersonName"
+        android:text="Age:"
+        android:textColor="#B30FF8"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="7mm"
+        android:layout_marginTop="35mm"
+        android:background="@color/purple_200"
+        android:backgroundTint="#E4CFE4"
+        android:hint="Your Job:"
+        android:ems="10"
+        android:fontFamily="@font/chau_philomene_one"
+        android:inputType="textPersonName"
+        android:text="Your Job:"
+        android:textColor="#B30FF8"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="7mm"
+        android:layout_marginTop="61mm"
+        android:background="@color/purple_200"
+        android:backgroundTint="#E4CFE4"
+        android:ems="10"
+        android:hint="Phone Number:"
+        android:fontFamily="@font/chau_philomene_one"
+        android:inputType="textPersonName"
+        android:text="Phone Number:"
+        android:textColor="#B30FF8"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="7mm"
+        android:layout_marginTop="74mm"
+        android:background="@color/purple_200"
+        android:backgroundTint="#E4CFE4"
+        android:ems="10"
+        android:hint="Email:"
+        android:fontFamily="@font/chau_philomene_one"
+        android:includeFontPadding="true"
+        android:inputType="textPersonName"
+        android:text="Email:"
+        android:textColor="#B30FF8"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/name"
+        android:layout_alignRight="@id/name"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="88mm"
+        android:layout_marginRight="63dp"
+        android:backgroundTint="#EB9EED"
+        android:fontFamily="@font/allan"
+        android:text="next"
+        android:textAlignment="center"
+        android:textColor="#D51EE9"
+        android:textSize="24sp" />
+</RelativeLayout>
